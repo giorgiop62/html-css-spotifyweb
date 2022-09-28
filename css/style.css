@@ -56,24 +56,24 @@ list-style-type: none;
 
 }
 
-.menu-2 {
+.list {
   background-color: black;
   height: calc(100vh - 90px);
   width: 230px;
   padding-top: 100px;
 }
 
-section .menu-2 li {
+section .list li {
   padding-bottom: 6px;
   margin-left: 20px;
   color: #a3a3a3;
 }
 
-section .menu-2 li:hover {
+section .list li:hover {
   color: white;
 }
 
-section .menu-2 ul {
+section .list ul {
   list-style-type: none;
 }
 
@@ -93,6 +93,11 @@ section .menu-2 ul {
   color: #a3a3a3;
   margin-left: 20px;
 }
+
+section .menu {
+  justify-content: space-between;
+}
+
 
 /*footer*/
 footer {
