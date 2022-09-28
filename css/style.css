@@ -57,15 +57,47 @@ list-style-type: none;
 }
 
 .menu-2 {
-  background-color: blue;
+  background-color: black;
   height: calc(100vh - 90px);
   width: 230px;
+  padding-top: 100px;
+}
+
+section .menu-2 li {
+  padding-bottom: 6px;
+  margin-left: 20px;
+  color: #a3a3a3;
+}
+
+section .menu-2 li:hover {
+  color: white;
+}
+
+section .menu-2 ul {
+  list-style-type: none;
+}
+
+.footer-menu a{
+  color: #a3a3a3;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.bordo {
+  border: solid 1px #a3a3a3;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.profilo {
+  color: #a3a3a3;
+  margin-left: 20px;
 }
 
 /*footer*/
 footer {
   width: 100%;
-  background-color: black;
+  background-color: #282828;
   height:100px;
   z-index: 999;
   position: fixed;
