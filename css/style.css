@@ -44,6 +44,9 @@ main {
   width: calc(100vw - 230px);
   padding-top: 100px;
   background-color: #141922;
+  height: calc(100vh - 90px);
+  overflow: auto;
+
   
 }
 
@@ -139,6 +142,57 @@ footer {
   height:100px;
   z-index: 999;
   position: fixed;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+footer .img {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin: 15px;
+}
+footer h4 {
+  color: white;
+}
+footer .text {
+  color: #a3a3a3;
+}
+footer .nome-brano {
+  margin-top: 21px;
+}
+footer .icone {
+  margin: 38px;
+  color: #a3a3a3;
+}
+
+.center ul {
+  color: #a3a3a3;
+  list-style-type: none;
+}
+.center ul li {
+  margin: 15px;
+}
+
+.center-under {
+  margin-bottom: 40px;
+}
+
+.lineascorr {
+  border: solid 1px #a3a3a3;
+}
+
+.right ul {
+  color: #a3a3a3;
+}
+
+.right ul {
+  color: #a3a3a3;
+  list-style-type: none;
+}
+.right li {
+  padding-right: 20px;
 }
 
 
