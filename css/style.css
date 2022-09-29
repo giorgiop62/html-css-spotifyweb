@@ -34,6 +34,8 @@ header .logo {
   width: 200px;
 }
 
+
+
 /*main*/
 
 main {
@@ -44,6 +46,16 @@ main {
   border-radius: 50%;
 }
 
+.icon-play {
+  font-size: 30px;
+  color: white;
+}
+.active:active{
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+
 .container {
   width: calc(100vw - 230px);
   padding-top: 100px;
@@ -53,10 +65,10 @@ main {
 
 }
 
-.fa-circle-play {
-  color: white;
-  font-size: 40px;
-  background-image: url(../img/aquietplace.jpeg);
+
+.bg-img {
+  background-image:url(../img/aquietplace.jpeg);
+  object-fit: cover;
 }
 
 .container nav ul {
@@ -138,9 +150,9 @@ main h2 {
 }
 .disco {
   width: 200px;
-  margin: 5px;
   flex-wrap: wrap;
   width: calc(100% / 6);
+  padding-left: 6px;
 }
 
 .container h1 {
@@ -165,12 +177,6 @@ footer {
   align-items: center;
 }
 
-footer .img {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  margin: 15px;
-}
 footer h4 {
   color: white;
 }
@@ -183,6 +189,7 @@ footer .nome-brano {
 footer .icone {
   margin: 38px;
   color: #a3a3a3;
+  width: calc(100% /4);
 }
 footer .icone:hover {
   color: white;
@@ -217,8 +224,29 @@ footer .icone:hover {
 .right li {
   padding-right: 20px;
 }
+.img-footer  {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+  
+}
 
 /*media-query*/
+@media screen and (max-width:768px) {
+  .container .disco {
+    width: calc(100% /4);
+    flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (max-width:480px){
+  .container .disco {
+    width: calc(100% /2);
+    flex-wrap: wrap;
+  }
+}
+
   
 
 
