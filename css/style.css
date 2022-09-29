@@ -40,6 +40,10 @@ main {
   display: flex;
 }
 
+.circle {
+  border-radius: 50%;
+}
+
 .container {
   width: calc(100vw - 230px);
   padding-top: 100px;
@@ -47,7 +51,12 @@ main {
   height: calc(100vh - 90px);
   overflow: auto;
 
-  
+}
+
+.fa-circle-play {
+  color: white;
+  font-size: 40px;
+  background-image: url(../img/aquietplace.jpeg);
 }
 
 .container nav ul {
@@ -58,7 +67,6 @@ list-style-type: none;
   width: calc(100% / 6);
   font-size: 15px;
   color: #a3a3a3;
-
 }
 
 .container nav li:hover {
@@ -125,9 +133,10 @@ main h2 {
   flex-wrap: wrap;
 }
 
+.img {
+  width: 100%;
+}
 .disco {
-  background-color: red;
-  height: 200px;
   width: 200px;
   margin: 5px;
   flex-wrap: wrap;
@@ -208,5 +217,8 @@ footer .icone:hover {
 .right li {
   padding-right: 20px;
 }
+
+/*media-query*/
+  
 
 
