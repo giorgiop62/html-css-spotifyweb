@@ -66,6 +66,11 @@ list-style-type: none;
 }
 
 
+.list nav {
+    height: calc(100vh - 300px);
+    overflow-y: auto;
+}
+
 .list {
   background-color: black;
   height: calc(100vh - 90px);
@@ -85,6 +90,10 @@ section .list li:hover {
 
 section .list ul {
   list-style-type: none;
+}
+
+.footer-menu {
+  margin-top: 20px;
 }
 
 .footer-menu a{
@@ -166,17 +175,22 @@ footer .icone {
   margin: 38px;
   color: #a3a3a3;
 }
+footer .icone:hover {
+  color: white;
+}
 
 .center ul {
   color: #a3a3a3;
   list-style-type: none;
 }
-.center ul li {
-  margin: 15px;
-}
 
-.center-under {
-  margin-bottom: 40px;
+.funzioni li {
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+.center .center-under li {
+  margin-left: 40px;
+  margin-top: 5px;
 }
 
 .lineascorr {
