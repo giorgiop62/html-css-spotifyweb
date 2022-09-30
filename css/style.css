@@ -257,9 +257,11 @@ footer .icone:hover {
     width: calc(100% /4);
     flex-wrap: wrap;
   }
+  .container nav ul {
+    flex-wrap: wrap;
 
-
-
+  }
+ 
 }
 
 @media screen and (max-width:480px){
@@ -267,6 +269,10 @@ footer .icone:hover {
     width: calc(100% /2);
     flex-wrap: wrap;
   }
+
+  
+
+ 
 }
 
   
